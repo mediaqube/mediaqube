@@ -1,17 +1,5 @@
 
 <item>
-<title>Bedaya</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=1qm8qVZmlFw</link>
-<thumbnail>http://bedaya.tv/img/logo.png</thumbnail>
-</item>
-
-<item>
-<title>Al Masria</title>
-<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUCH1 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch1.html live=true timeout=15</link>
-<thumbnail>http://i82.servimg.com/u/f82/17/28/12/40/egypti10.png</thumbnail>
-</item>
-
-<item>
 <title>Future TV  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
 <link>http://futuretv.cdn.mangomolo.com/futuretv/smil:futuretv.smil/playlist.m3u8</link>
 <thumbnail>http://livefuturetv.com/futurelogo.png</thumbnail>
