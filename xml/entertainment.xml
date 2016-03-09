@@ -1,39 +1,4 @@
 
-<info>
-<message>[COLOR=FFFF0000]Announcement(s): Added Nile Drama[/COLOR]</message>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
-</info>
-
-<info>
-<message>[COLOR=FFFF0000]Announcement(s): Request Channels And Il Add Them, Twitter:@crus88_mashup[/COLOR]</message>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
-</info>
-
-<info>
-<message>[COLOR=FFFF0000]Important: If You Get A Black Screen, You Must Click Channel 3 Times To Get Video[/COLOR]</message>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
-</info>
-
-<info>
-<message>[COLOR=FFFF0000]Important: Click Twice On Channels![/COLOR]</message>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
-</info>
-
-
-<item>
-<title>Cairo Cinema</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=cd?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=cd live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=cd&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/cairodrama.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.cairocinema.net/wp-content/uploads/2014/02/Comp-1-0-00-01-00-222x300.png</thumbnail>
-</item>
-
 <item>
 <title>Talaqie</title>
 <link>rtmp://82.137.248.20:1935/Talaqie playpath=TalaqieLive3 swfUrl=http://live.rtv.gov.sy/flash/lib/StrobeMediaPlayback2.swf pageUrl=http://live.rtv.gov.sy/Talaqie.aspx?HQ=1 live=true timeout=15</link>
@@ -52,47 +17,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=cd?cle=$doregex[id] swfUrl=http:
 <thumbnail>http://uaeconnectors.com/wp-content/uploads/2015/04/Dubai-TV-Logo.jpg</thumbnail>
 </item>
 
-<item>
-<title>Al Nahar [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-http://stream250.n-stream.tv:1935/naharch/nahar_tvprofile2.stream/playlist.m3u8?wmsAuthSign=$doregex[m3u8]
-<regex>
-<name>m3u8</name>
-<expres>wmsAuthSign=([^"]*)</expres>
-<page>http://al-nahar.tv/streams/alnaharstream.php</page>
-<referer>http://al-nahar.tv/streams/index.php</referer>
-</regex>
-</link>
-<thumbnail>http://www.alnaharlive.net/images/alnaharalyoum.png</thumbnail>
-</item>
-
-<item>
-<title>Al Nahar Today [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-http://stream250.n-stream.tv:1935/naharch/nahar_youmprofile2.stream/playlist.m3u8?wmsAuthSign=$doregex[m3u8]
-<regex>
-<name>m3u8</name>
-<expres>wmsAuthSign=([^"]*)</expres>
-<page>http://al-nahar.tv/streams/alyoumstream.php</page>
-<referer>http://al-nahar.tv/streams/alyoum.php</referer>
-</regex>
-</link>
-<thumbnail>http://al-nahar.tv/streams/images/alnahar.png</thumbnail>
-</item>
-
-<item>
-<title>Al Nahar Drama [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-http://stream250.n-stream.tv:1935/naharch/nahar_dramaprofile2.stream/playlist.m3u8?wmsAuthSign=$doregex[m3u8]
-<regex>
-<name>m3u8</name>
-<expres>wmsAuthSign=([^"]*)</expres>
-<page>http://al-nahar.tv/streams/dramastream.php</page>
-<referer>http://al-nahar.tv/streams/drama.php</referer>
-</regex>
-</link>
-<thumbnail>http://al-nahar.tv/streams/images/alnahardrama.png</thumbnail>
-</item>
 
 <item>
 <title>Abu Dubai</title>
@@ -122,76 +46,6 @@ http://stream250.n-stream.tv:1935/naharch/nahar_dramaprofile2.stream/playlist.m3
 <title>Al Hayat Cinema</title>
 <link>http://38.99.146.36:7777/AlHayatCinema_HD.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/alhayat_cinema.png</thumbnail>
-</item>
-
-<item>
-<title>Almas TV</title>
-<link>
-$doregex[m3u8]
-<regex>
-<name>m3u8</name>
-<expres>href="([^"]*)</expres>
-<page>http://almastv-radio.com/livetv.php</page>
-<referer>http://almastv-radio.com/livetv.php</referer>
-</regex>
-</link>
-<thumbnail>http://almastv-radio.com/wpimages/wpab487655_05.jpg</thumbnail>
-</item>
-
-<item>
-<title>Aljadeed (Link 2)</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=aljadeed?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=aljadeed live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=aljadeed&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/aljadeed.html</referer>
-</regex>
-</link>
-<thumbnail>http://1.bp.blogspot.com/-W1Ry_s_c5-k/UAw9jeMFGoI/AAAAAAAANlY/SJ_JbZV8W5E/s400/aljadeed%2Btv.jpeg</thumbnail>
-</item>
-
-<item>
-<title>LBC SAT</title>
-<link>
-rtmp://web2.iptv-planet.com:1937/live2 playpath=lbc?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=lbc live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=lbc&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/lbc.html</referer>
-</regex>
-</link>
-<thumbnail>http://fikrconferences.org/sites/default/files/lbc-logo.jpg?1352659193</thumbnail>
-</item>
-
-<item>
-<title>MTV (Link 2)</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=mtv?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=mtv live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=mtv&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mtv.html</referer>
-</regex>
-</link>
-<thumbnail>http://arabic-media.com/img/stn/src/mtv-lebanon.jpg</thumbnail>
-</item>
-	
-<item>
-<title>MBC Drama</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbcdrama?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbcdrama live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=Hi_mbcdrama&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mbcdrama.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/mm/mbc_ae_drama.png</thumbnail>
 </item>
 
 <item>
@@ -226,47 +80,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=fm?cle=$doregex[id] swfUrl=http:
 <thumbnail>http://www.livetv.tn/images/icons/67.gif</thumbnail>
 </item>
 
-<item>
-<title>Zee Alwen</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=zee_alwan?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=zee_alwan live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=zee_alwan&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/zeealwan.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.livetv.tn/images/icons/48.gif</thumbnail>
-</item>
-
-<item>
-<title>Zee Aflam</title>
-<link>
-rtmp://web2.iptv-planet.com:1937/live2 playpath=Hi_zeeaflem?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=zee_aflem live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=zee_aflem&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/zeeaflem.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.livetv.tn/images/icons/74.gif</thumbnail>
-</item>
-
-<item>
-<title>Panorama Drama 2</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=pd2?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=pd2 live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=pd2&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/panoramadrama2.html</referer>
-</regex>
-</link>
-<thumbnail>http://s3.vefire.ru/l/ru/PanoramaDrama2.gif</thumbnail>
-</item>
 
 <item>
 <title>Palestine HD</title>
@@ -280,19 +93,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=pd2?cle=$doregex[id] swfUrl=http
 <thumbnail>http://bo7.net/images/2/_%D8%AA%D8%B1%D8%AF%D8%AF_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9_AL_.jpg</thumbnail>
 </item>
 
-<item>
-<title>MBC MAX</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbcmax?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbcmax live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=Hi_mbcmax&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mbcmax.html</referer>
-</regex>
-</link>
-<thumbnail>http://alghaslan.net/wp-content/uploads/MBC-MAX-300x115.jpg</thumbnail>
-</item>
 
 <item>
 <title>Sada Al Balad</title>
@@ -306,19 +106,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbcmax?cle=$doregex[id] swfUr
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sada_el_balad_drama.png</thumbnail>
 </item>
 
-<item>
-<title>MBC Maser</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=mbcmasr?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=mbcmasr live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=mbcmasr&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mbcmasr.html</referer>
-</regex>
-</link>
-<thumbnail>http://jazarah.net/ar/wp-content/uploads/2012/10/MBC-MASR-logo.jpg</thumbnail>
-</item>
 
 <item>
 <title>Al Nahar Drama [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
@@ -338,89 +125,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=mbcmasr?cle=$doregex[id] swfUrl=
 <thumbnail>http://img1.moneycontrol.com/images/entitygame/big/Sama_Dubai_300.jpg</thumbnail>
 </item>
 
-<item>
-<title>LBC International (LBC Europe) [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-$doregex[id]
-<regex>
-<name>id</name>
-<expres>file: "([^"]*)</expres>
-<page>http://www.lbcgroup.tv/Live/ar</page>
-<referer>http://www.lbcgroup.tv/Live/ar</referer>
-</regex>
-</link>
-<thumbnail>http://3.bp.blogspot.com/-WuocdC0K9zg/T5hiDrsJySI/AAAAAAAABYg/Vy_-ZiKNIOQ/s1600/582643_356984461016626_119723014742773_951695_695582465_n.jpg</thumbnail>
-</item>
-
-<item>
-<title>LBC International (LBC Europe) (Link 2)</title>
-<link>
-rtmp://web2.iptv-planet.com:1937/live2 playpath=lbc?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=lbc live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=lbc&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/lbc.html</referer>
-</regex>
-</link>
-<thumbnail>http://3.bp.blogspot.com/-WuocdC0K9zg/T5hiDrsJySI/AAAAAAAABYg/Vy_-ZiKNIOQ/s1600/582643_356984461016626_119723014742773_951695_695582465_n.jpg</thumbnail>
-</item>
-
-<item>
-<title>CBC</title>
-<link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
-<regex>
-<name>id</name>
-<expres>src="https://www.youtube.com/embed/([^"]*)</expres>
-<page>http://www.cbc-eg.com/cbc/live-stream</page>
-<referer> </referer>
-</regex>
-</link>
-<thumbnail>http://3.bp.blogspot.com/-bQhnaV_8KF4/T7ZPNiBq6zI/AAAAAAAADEY/p3VdxQEj1Ws/s1600/cbc.jpg</thumbnail>
-</item>
-
-<item>
-<title>CBC Extra</title>
-<link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
-<regex>
-<name>id</name>
-<expres>src="https://www.youtube.com/embed/([^"]*)</expres>
-<page>http://www.cbc-eg.com/extra/live-stream</page>
-<referer> </referer>
-</regex>
-</link>
-<thumbnail>https://yt3.ggpht.com/-01YF5Z5-iko/AAAAAAAAAAI/AAAAAAAAAAA/lo6d1n4uaAg/s88-c-k-no/photo.jpg</thumbnail>
-</item>
-
-<item>
-<title>CBC Drama</title>
-<link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
-<regex>
-<name>id</name>
-<expres>src="https://www.youtube.com/embed/([^"]*)</expres>
-<page>http://www.cbc-eg.com/drama/live-stream</page>
-<referer> </referer>
-</regex>
-</link>
-<thumbnail>https://yt3.ggpht.com/-tDe3PyadQnQ/AAAAAAAAAAI/AAAAAAAAAAA/rBmsY_5xshg/s88-c-k-no/photo.jpg</thumbnail>
-</item>
-
-<item>
-<title>CBC Sofra</title>
-<link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
-<regex>
-<name>id</name>
-<expres>src="https://www.youtube.com/embed/([^?]*)</expres>
-<page>http://www.cbc-eg.com/sofra/%d8%a7%d9%84%d8%a8%d8%ab-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/</page>
-<referer> </referer>
-</regex>
-</link>
-<thumbnail>http://www.livetv.tn/images/icons/256.gif</thumbnail>
-</item>
 
 <item>
 <title>Echourouk TV</title>
@@ -482,19 +186,6 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <thumbnail>http://1.bp.blogspot.com/-W1Ry_s_c5-k/UAw9jeMFGoI/AAAAAAAANlY/SJ_JbZV8W5E/s400/aljadeed%2Btv.jpeg</thumbnail>
 </item>
 
-<item>
-<title>MBC [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbc1?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbc1 live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=Hi_mbc1&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mbc1.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.ilcode.com/photos/www.ilcode.com-mdubdqlswkxrchiaarxirdk-mbc.jpg</thumbnail>
-</item>
 
 <item>
 <title>MBC Action</title>
@@ -506,20 +197,6 @@ rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbc1?cle=$doregex[id] swfUrl=
 <title>MBC 2</title> 
 <link>rtmp://63.237.48.23/live/ playpath=MBC2 swfUrl=http://watchfomny.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.20sat.byethost31.com/new/mbc2_on.htm live=true timeout=15</link> 
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/mbc2_ae.png</thumbnail>
-</item>
-
-<item>
-<title>MBC 3 [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbc3?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbc3 live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=Hi_mbc3&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/mbc3.html</referer>
-</regex>
-</link>
-<thumbnail>http://cdn.akhbaar24.com/a201a3dc-2eb1-4366-a67e-c9c361b05baa.jpg</thumbnail>
 </item>
 
 <item>
