@@ -34,17 +34,3 @@
 <thumbnail>http://en.alalam.ir/img/ArmAlalam.png</thumbnail>
 </item>
 
-
-<item>
-<title>National Geographic</title>
-<link>
-rtmp://web3.iptv-planet.com:1937/live2 playpath=natgeographic?cle=$doregex[id] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=natgeographic live=1 swfVfy=true
-<regex>
-<name>id</name>
-<expres>cle=([^']*)</expres>
-<page>http://embed.iptv-planet.com/embed.php?id=natgeographic&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/nationalgeographic.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.livetv.tn/images/icons/271.gif</thumbnail>
-</item>
