@@ -1,0 +1,91 @@
+
+<item>
+<title>Bedaya</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=1qm8qVZmlFw</link>
+<thumbnail>http://bedaya.tv/img/logo.png</thumbnail>
+</item>
+
+<item>
+<title>Al Masria</title>
+<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUCH1 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch1.html live=true timeout=15</link>
+<thumbnail>http://i82.servimg.com/u/f82/17/28/12/40/egypti10.png</thumbnail>
+</item>
+
+<item>
+<title>Future TV  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
+<link>http://futuretv.cdn.mangomolo.com/futuretv/smil:futuretv.smil/playlist.m3u8</link>
+<thumbnail>http://livefuturetv.com/futurelogo.png</thumbnail>
+</item>
+
+<item>
+<title>Al Aan</title>
+<link>rtmp://livestreaming.itworkscdn.net/alaanlive playpath=alaantv swfUrl=http://itworks-me.net/alaan/jwplayer.flash.swf pageUrl=http://itworks-me.net/alaan/ live=true timeout=15</link>
+<thumbnail>http://www.livetv.tn/images/icons/94.gif</thumbnail>
+</item>	
+
+<item>
+<title>Al Manar</title>
+<link>rtmp://live.mediaforall.net:1935/ app=liveorigin/ playpath=livestream_480p swfUrl=http://www.almanar.com.lb/jwplayer/jwplayer.flash.swf pageUrl=http://www.almanar.com.lb/manarlive.php live=1 swfVfy=true</link>
+<thumbnail>http://www.aljazeera.com/mritems/images/2006/11/23/1_202119_1_5.jpg</thumbnail>
+</item>
+
+<title>Baghdad Sat</title>
+<link>rtmp://streamer1.hamuraabi.com:1935/ app=baghdad playpath=live swfUrl=http://hamuraabi.com/BAGHDAD/player.swf pageUrl=http://hamuraabi.com/BAGHDAD/baghdad.html live=true timeout=15</link>
+<thumbnail>http://www.tv-logo.com/pt-data/uploads/images/logo/baghdad_tv.jpg</thumbnail>
+</item>
+
+<item>
+<title>Al Rai</title>
+<link>rtmp://stream01.fasttelco.net:1935/ app=live/_definst_ playpath=ALRAI/LIVE_STREAMING/alrai swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.alrai.tv/LiveBroadcast.aspx?lang=ar live=true timeout=15</link>
+<thumbnail>http://www.kooora.com/images/channel_/alrai_tv.jpg</thumbnail>
+</item>
+
+<item>
+<title>Sama Syria</title>
+<link>rtmp://sama-tv.net/live playpath=samatv swfUrl=http://www.addounia.tv/live/player.swf live=true timeout=15 pageUrl=http://www.addounia.tv/index.php?page=live</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/7/75/Sama_TV_Logo.png</thumbnail>
+</item>
+
+<item>
+<title>Al Forat</title>
+<link>rtmp://alforatlive.nanocdn.com:1935/live playpath=alforat256</link>
+<thumbnail>http://www.ashura.tv/live-tv/al-forat-tv/logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Kuwait 1</title>
+<link>http://91.140.238.7/Segments/HLS_TS/rtpencoder/ch1.sdp.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/kk/ktv_1.png</thumbnail>
+</item>
+
+<item>
+<title>Al Hiwar</title>
+<link>rtmp://mn-i.mncdn.com/ app=alhiwar_live/_definst_ playpath=mp4:alhiwar3 swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.2/jwplayer.flash.swf pageUrl=http://www.alhiwar.tv/ live=1 swfVfy=true</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/aa/al_hiwar.png</thumbnail>
+</item>
+
+<item>
+<title>Kuwait 2</title>
+<link>http://91.140.238.7/Segments/HLS_TS/rtpencoder/ch2.sdp.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/kk/ktv_2.png</thumbnail>
+</item>
+
+<item>
+<title>Al Quds</title>
+<link>http://stream.qudstv.com:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8</link>
+<thumbnail>http://1.bp.blogspot.com/-KBETksdbRo4/UQeAGj-i0eI/AAAAAAAAq70/aFpIbT28KTw/s1600/al_quds_tv_palestine_channel_live_online_free_arabic_channel.JPG</thumbnail>
+</item>
+
+
+
+<item>
+<title>Iraqi Media Network</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/21791994/streams/live/playlist.m3u8</link>
+<thumbnail>http://images-mediawiki-sites.thefullwiki.org/08/4/2/3/4905202658349467.png</thumbnail>
+</item>
+
+<item>
+<title>El Shorooq TV</title>
+<link>http://live.echoroukonline.com/live/EchoroukTV/playlist.m3u8</link>
+<thumbnail>http://arabicfomny.com/fomnyarabictv/alshorooq_tv_live.jpg</thumbnail>
+</item>
