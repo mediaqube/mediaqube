@@ -29,26 +29,6 @@
 </item>
 
 <item>
-<title>Al Mayadeen</title>
-<link>
-$doregex[get-m3u8]$doregex[smart]
-<regex>
-<name>smart</name>
-<expres>starttestPlayer\('([^']*)</expres>
-<page>http://www.almayadeen.net/live</page>
-<referer> </referer>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.almayadeen.net/live</page>
-<referer> </referer>
-</regex>
-</link>
-<thumbnail>http://3.bp.blogspot.com/-IOB9KcaUF4Q/UJb9e9T9jYI/AAAAAAAADtk/qaZeDGNGNuw/s1600/al_mayadeen_tv.png</thumbnail>
-</item>
-
-<item>
 <title>Alalam</title>
 <link>rtmp://fml.BE1E.edgecastcdn.net/ app=20BE1E/HLS?hghpl=1119709190 playpath=AlalamHLS swfUrl=http://www.elahmad.com/tv/swf/player.swf pageUrl=http://www.elahmad.com/tv/alalamtv.php live=true timeout=15</link>
 <thumbnail>http://en.alalam.ir/img/ArmAlalam.png</thumbnail>
